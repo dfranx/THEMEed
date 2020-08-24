@@ -20,6 +20,11 @@ set(SOURCES
 	libs/imgui/examples/imgui_impl_sdl.cpp
 )
 
+# pkg
+if (UNIX)
+  find_package(PkgConfig REQUIRED)
+endif()
+
 # sdl2
 if(WIN32 OR APPLE OR NOT ${USE_PKG_CHECK_SDL})
   find_package(SDL2 REQUIRED)
