@@ -2,7 +2,7 @@
 THEMEed is a simple tool built for designing SHADERed themes.
 It has a live preview of the theme you are working on.
 
-Upload your own theme to SHADERed's database [here](http://shadered.org/upload_theme).
+Upload your own theme to SHADERed's database [here](https://shadered.org/upload_theme).
 
 ![Screenshot #1](screenshots/screen1.png)
 
